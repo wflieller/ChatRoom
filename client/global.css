@@ -253,7 +253,7 @@ body {
   border-radius: 0.2rem;
   width: 36px;
   height: 36px;
-  background-image: url("http://i.imgur.com/LikUNLc.png");
+  background-image: url("http://i.imgur.com/Oy2zFDi.jpg");
   background-size: cover;
 }
 
@@ -314,7 +314,7 @@ body {
   border-radius: 0.2rem;
   width: 48px;
   height: 48px;
-  background-image: url("http://i.imgur.com/LikUNLc.png");
+  background-image: url("http://i.imgur.com/Oy2zFDi.jpg");
   background-size: cover;
   margin-right: 8px;
 }
@@ -369,4 +369,10 @@ body {
   bottom: 0;
   min-height: 41px !important;
   padding: 9px 5px 9px 8px;
+}
+
+
+.channel_name {
+  text-decoration: none;
+  color: inherit;
 }

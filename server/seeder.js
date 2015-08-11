@@ -1,4 +1,4 @@
-// Meteor.startup(function() {
+Meteor.startup(function() {
 
 // //   Meteor.users.remove({});
 // //   Accounts.createUser({
@@ -25,11 +25,11 @@
 // //     });
 // //   }
 
-//   // Channels.remove({});
-// //   Channels.insert({
-// //     name: "general"
-// //   });
-// //   Channels.insert({
-// //     name: "random"
-// //   });
-// });
+  Channels.remove({});
+  Channels.insert({
+    name: "general"
+  });
+  Channels.insert({
+    name: "random"
+  });
+});
