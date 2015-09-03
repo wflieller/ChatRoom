@@ -35,6 +35,7 @@ Template.listings.helpers({
 	}
 });
 
+
 Template.channel.helpers({
 	active: function () {
 		if (Session.get('channel') === this.name) {
